@@ -1,0 +1,317 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Arial, sans-serif;
+}
+
+#top-bar {
+  width: 1000px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+/* this is the Text neaar line */
+
+
+
+
+#logo {
+  margin-top: 8px;
+  width: 150px;
+  float: left;
+
+}
+
+.top-bar-section {
+
+  float: left;
+  border-left: 1px black solid;
+  height: 100%;
+  margin-left: 8px;
+  margin-top: 2px;
+
+}
+
+.bell-section {
+  float: left;
+  border-left: 1px black solid;
+  height: 100%;
+  margin-left: 8px;
+  margin-top: 2px;
+}
+
+/* Singn in image */
+
+#signin-image {
+  width: 25px;
+  border-radius: 25px;
+  height: 25px;
+  margin: 12px 15px;
+  float: left;
+
+}
+
+#sign-in-text {
+  font-weight: bolder;
+  font-size: 90%;
+  top: 16px;
+  position: relative;
+  padding-right: 24px;
+
+}
+
+#lamp-logo {
+  width: 34px;
+  height: 30px;
+  float: left;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.topbar-menue {
+
+  font-weight: bold;
+  font-size: 90%;
+  padding: 12px 12px;
+  height: 18px;
+
+}
+
+#arrow {
+  width: 12px;
+  margin-left: 10px;
+}
+
+#search-box {
+  background-color: rgb(222, 228, 240);
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px 0px 5px 5px;
+  padding: 5px;
+  float: left;
+
+}
+
+.image-div {
+  width: 40px;
+  height: 35px;
+}
+
+.clear {
+  clear: both;
+}
+
+#menue-bar-container {
+  background-color: #bb1919;
+  width: 100%;
+  height: 70px;
+
+}
+
+#menue-bar {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* header news */
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+  padding-top: 10px;
+  float: left;
+
+}
+
+
+
+#local-news {
+  border: 1px #bb4545 solid;
+  float: right;
+  width: 260px;
+  padding: 5px 5px 0 5px;
+  margin: 5px 10px 0px 0px;
+}
+
+
+#local-news a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+
+
+}
+
+#local-news a:hover {
+  text-decoration: underline;
+}
+
+#local-news img {
+  height: 40px;
+}
+
+#menue-bar-2-container {
+  background-color: #A91717;
+  width: 100%;
+}
+
+#menue-bar-2 {
+  width: 1000px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+#menue-bar-2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  /* margin-top: 5px; */
+  padding: 0 10px;
+  border-right: 1px solid black;
+  position: relative;
+  top: 10px;
+}
+
+#menue-bar-2 a:hover {
+  text-decoration: underline;
+}
+
+#menue-bar-2 a img {
+  width: 16px;
+  position: relative;
+  top: 4px;
+
+}
+
+.no-border {
+  border: none !important;
+}
+
+#page-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 40px;
+  border-bottom: 3px solid #A91717;
+  width: 100px;
+
+}
+
+h3 {
+  color: blue;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 a {
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+  color: #1167a8;
+}
+
+#article-summary {
+  color: #5a5a5a;
+  width: 250px;
+  float: left;
+}
+
+.clock {
+  height: 15px;
+  position: relative;
+  top: 2px;
+
+}
+
+#topic-link {
+  color: #A91717;
+  text-decoration: none;
+}
+
+#article-summary p a:hover {
+  text-decoration: underline;
+  color: #1167a8;
+
+}
+
+#article-container {
+  float: left;
+  width: 690px;
+  border-right: 1px solid #cccccc;
+  padding-right: 20px;
+}
+
+#main-article-image {
+  width: 400px;
+  margin-left: 35px;
+}
+
+#article-hr {
+  border-top: 1px solid #bb1919;
+  width: 50%;
+
+}
+
+.article-link {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+#watch-listen {
+  margin-left: 20px;
+  width: 200px;
+  float: right;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.article-side-image {
+  float: left;
+  width: 90px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.watch-listen-link {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.watch-listen-link:hover {
+  color: #1167a8;
+}
+
+.side-article {
+  float: right;
+  width: 250px;
+  position: relative;
+  top: -15px;
+ 
+}
+.container-fluid{
+    width: 1000px;
+    background-color: #1167a8;
+    color:white;
+    height: 50px;
+    text-align: center;
+}
